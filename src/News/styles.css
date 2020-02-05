@@ -1,0 +1,86 @@
+#root {
+    margin-bottom: 20px;
+    background-color:lightgrey;
+}
+
+div.main {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+div.main-content {
+    display: inline-block;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    text-align: center;
+    background-color: lavender;
+    border-radius: 2px;
+}
+
+img.content {
+    width: 100%;
+    max-height: 230px;
+    min-height: 230px;
+    opacity: 0.7;
+}
+img.content:hover{
+    opacity: 1.0;
+}
+
+div.content {
+    min-height: 42px;
+    max-height: 42px;
+    overflow: hidden;
+}
+
+p.content {
+    max-height: 65px;
+    min-height: 65px;
+    overflow: hidden;
+}
+
+span.left-content {
+    float: left;
+    margin-left: 5px;
+}
+
+span.right-content {
+    float: right;
+    margin-right: 5px;
+    min-width: 185px;
+    max-width: 185px;
+    max-height: 25px;
+    overflow: hidden;
+}
+img.delete-card{
+    width: 100%;
+    border-radius: 50px;
+}
+a.external{    
+    float: left;
+    min-height: 0px;
+    max-width: 55px;
+    background-color: lightblue;
+    margin-left: 15px;
+}
+img.external{
+    width:100%;
+}
+button.delete-card{
+    float: right;    
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: Segoe UI,Arial,sans-serif;
+    border: none;
+    font-weight: bold;
+
+}
+button.delete-card:hover{
+    background-color: #2e86c0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
